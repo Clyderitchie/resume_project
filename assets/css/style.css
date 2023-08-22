@@ -7,13 +7,19 @@
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Basic parent element tags */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
 /* Header Element tags */
 header {
     display: block;
     padding: 20px;
-    background-color: red;
 }
 
+/* Nav Bar element tags */
 nav {
     font-size: 28px;
     padding-top: 15px;
@@ -27,7 +33,30 @@ nav ul li {
     margin-left: 75px;
 }
 
-h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Figure element Tags */
+figure img {
+    height: fit-content;
+    min-height: auto;
+    width: 100%;
+    min-width: 65%;
+    margin: 25px 0;
+    padding: 0 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* article element tags */
+article {
+    display: block;
+    padding: 0%;
+    margin: 15px 0;
+}
+
+section img {
+    height: 50%;
+    width: 100%;
+    margin: 25px 0;
+    padding: 0 150px;
+    background-size: cover;
+    background-position: center;
 }
