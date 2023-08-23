@@ -1,4 +1,4 @@
-/* Universal Element tags */
+/* Universal element tags */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +7,7 @@
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Header element tags */
 header {
     display: flex;
     justify-content: space-between;
@@ -15,5 +16,17 @@ header {
 
 header a {
     font-size: 24px;
+    padding: 0 35px;
+}
+
+/* Section element tags */
+section {
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section img {
     padding: 0 35px;
 }
